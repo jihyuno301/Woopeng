@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<body>
+<div id="accessToken"><%=data.access_token%></div>
+<div id="refreshToken"><%=data.refresh_token%></div>
+<div id="usenum"><%=data.user_seq_no%></div>
+</body>
+<script>
+alert('인증 완료!')
+   opener.document.getElementById("userAccessToken").value =
+       document.getElementById("accessToken").textContent;
+   opener.document.getElementById("userRefreshToken").value =
+       document.getElementById("refreshToken").textContent;
+   opener.document.getElementById("userSeqNo").value =
+       document.getElementById("usenum").textContent;
+window.close(); 
+</script>
+</html>
