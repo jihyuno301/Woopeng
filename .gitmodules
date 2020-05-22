@@ -1,0 +1,3 @@
+[submodule "woo-paying-expo-app"]
+	path = woo-paying-expo-app
+	url = https://github.com/jihyuno301/woo-paying-expo-app.git
